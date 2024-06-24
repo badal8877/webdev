@@ -1,0 +1,13 @@
+ .container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .box {
+    height: 250px;
+    width: 30rem;
+    background-color: darkturquoise;
+    text-align: center;
+    margin: 10px;
+  } 
+   

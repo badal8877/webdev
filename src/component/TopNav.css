@@ -1,0 +1,95 @@
+/* Top navigation container styles */
+.top-nav-container {
+  /* Set the container to display as a flex container in a row direction */
+  display: flex;
+  flex-direction: row;
+  /* Set the width and height of the container */
+  width: 100%;
+  height: 150px;
+
+  /* Set the background color of the container */
+  
+  background-color: aquamarine;
+}
+
+/* Logo container styles */
+.logo-container {
+  /* Set the initial main size of the logo container to 50% of its parent element */
+  flex-basis: 50%;
+  /* Align the text within the logo container to the left */
+  text-align: left;
+}
+
+/* Top navigation styles */
+.top-nav {
+  /* Vertically center the elements within the top navigation */
+  align-items: center;
+}
+
+/* Navigation container styles */
+.nav-container {
+  /* Set the container to display as a flex container in a column direction */
+  display: flex;
+  flex-direction: column;
+  /* Set the initial main size of the navigation container to 50% of its parent element */
+  flex-basis: 50%;
+  /* Align the text within the navigation container to the right */
+  text-align: right;
+}
+
+/* Upper right navigation styles */
+.upper-right {
+  /* Align the element to the right side of its parent element */
+  align-self: flex-end;
+  /* Add a margin to the top of the element */
+  margin-top: 20px; /* adjust the margin to your needs */
+}
+
+/* Lower right navigation styles */
+.lower-right {
+  /* Align the element to the right side of its parent element */
+  align-self: flex-end;
+  /* Add a margin to the bottom of the element */
+  margin-bottom: 20px; /* adjust the margin to your needs */
+  /* Push the element to the bottom of its parent element */
+  margin-top: auto;
+}
+
+/* Logo styles */
+.logo {
+  /* Set the logo to display as a flex container */
+  display: flex;
+  /* Add padding to the logo */
+  padding: 0.5rem 1rem;
+  /* Set the height of the logo */
+  height: 100px;
+  /* Add a margin to the right of the logo */
+  margin-right: 10px;
+}
+
+/* Brand text styles */
+.brand-text {
+  /* Set the font size and weight of the brand text */
+  font-size: 21px;
+  font-weight: bold;
+}
+
+/* english text styles */
+.english-text {
+  /* Center the hindi text horizontally */
+  text-align: center;
+  /* Set the font size and weight of the hindi text */
+  font-size: 18px;
+  font-weight: normal;
+  /* Set the color of the hindi text */
+  color: #666;
+}
+
+/* Brand text 1 styles */
+.brand-text1 {
+  /* Set the font size and weight of the brand text 1 */
+  font-size: 14px;
+  font-weight: normal;
+  /* Set the color of the brand text 1 */
+  color: #999;
+}

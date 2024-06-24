@@ -1,0 +1,23 @@
+  /* The BusinessContainer class sets the container to be a flex container and centers its contents */
+.BusinessContainer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* The BusinessCss class sets the style for each business container */
+  .BusinessCss {
+    /* Sets the height of each container */
+    height: 20rem;
+  
+    /* Sets the width of each container to 45% of its parent container */
+    width: 41%;
+  
+    /* Sets the background color of each container */
+    background-color: rgb(231, 173, 212);
+  
+    /* Centers the text inside each container */
+    text-align: center;
+  
+    /* Adds some margin around each container */
+    margin: 10px;
+  }

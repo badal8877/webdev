@@ -1,0 +1,23 @@
+  /* The CsrContainer class sets the container to be a flex container and centers its contents */
+  .CsrContainer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* The CsrCss class sets the style for each business container */
+  .CsrCss {
+    /* Sets the height of each container */
+    height: 10rem;
+  
+    /* Sets the width of each container to 45% of its parent container */
+    width: 41%;
+  
+    /* Sets the background color of each container */
+    background-color: rgb(146, 194, 199);
+  
+    /* Centers the text inside each container */
+    text-align: center;
+  
+    /* Adds some margin around each container */
+    margin: 10px;
+  }

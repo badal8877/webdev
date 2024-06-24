@@ -1,0 +1,12 @@
+.TenderContainer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .TenderCss {
+    height: 30rem;
+    width: 41%;
+    background-color: rgb(40, 189, 195);
+    text-align: center;
+    margin: 10px;
+  }

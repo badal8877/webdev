@@ -1,0 +1,13 @@
+.MapContainer {
+    display: flex;
+    /* padding: 20px; add some space from both sides */
+    justify-content: center;
+  }
+  
+  .MapCss {
+    height: 40rem;
+    width: 41%;
+    background-color: rgb(188, 144, 41);
+    text-align: center;
+    margin: 10px;
+  }
